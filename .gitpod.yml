@@ -12,4 +12,4 @@ vscode:
     - ms-toolsai.jupyter
     - esbenp.prettier-vscode
     - ecmel.vscode-html-css
-    
+    - batisteo.vscode-django
