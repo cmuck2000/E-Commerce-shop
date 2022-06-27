@@ -34,6 +34,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+CSRF_TRUSTED_ORIGINS = ["https://8000-cmuck2000-ecommerceshop-c1e1yo5a7xj.ws-eu47.gitpod.io/",]
 
 # Application definition
 
