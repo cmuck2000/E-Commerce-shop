@@ -15,7 +15,7 @@
   },
   "files.autoSave": "onFocusChange",
   "editor.wordWrap": "on",
-  "workbench.colorTheme": "Material Theme Lighter",
+  "workbench.colorTheme": "Community Material Theme Darker",
   "terminal.integrated.gpuAcceleration": "canvas",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[python]": {
