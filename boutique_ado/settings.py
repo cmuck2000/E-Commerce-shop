@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+import dj_database_url
 
 if os.path.isfile("env.py"):
     import env
@@ -34,7 +35,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-CSRF_TRUSTED_ORIGINS = ["https://8000-cmuck2000-ecommerceshop-c1e1yo5a7xj.ws-eu47.gitpod.io/",]
+CSRF_TRUSTED_ORIGINS = [
+    "https://8000-cmuck2000-ecommerceshop-c1e1yo5a7xj.ws-eu47.gitpod.io/",
+]
 
 # Application definition
 
@@ -129,7 +132,9 @@ DATABASES = {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
     }
+
 }
+
 
 
 # Password validation
@@ -182,7 +187,7 @@ STRIPE_CURRENCY = "usd"
 STRIPE_PUBLIC_KEY = os.environ.get("STRIPE_PUBLIC_KEY", "")
 STRIPE_SECRET_KEY = os.environ.get("STRIPE_SECRET_KEY", "")
 STRIPE_WH_SECRET = os.environ.get("STRIPE_WH_SECRET", "")
-DEFAULT_FROM_EMAIL = 'boutiqueado@example.com'
+DEFAULT_FROM_EMAIL = "boutiqueado@example.com"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
