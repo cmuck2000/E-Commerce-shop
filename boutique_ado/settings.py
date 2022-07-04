@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://boutique-shop.herokuapp.com/", "localhost"]
+ALLOWED_HOSTS = ["https://boutique-shop.herokuapp.com", "localhost"]
 
 
 # Application definition
@@ -191,3 +191,4 @@ DEFAULT_FROM_EMAIL = "boutiqueado@example.com"
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
