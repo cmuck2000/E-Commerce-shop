@@ -215,6 +215,6 @@ STRIPE_WH_SECRET = os.environ.get("STRIPE_WH_SECRET", "")
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-    EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
-    DEFAULT_FROM_EMAIL = "boutiqueado@example.com"
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+DEFAULT_FROM_EMAIL = "boutiqueado@example.com"
 
